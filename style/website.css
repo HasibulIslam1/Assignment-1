@@ -1,0 +1,259 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.btn-secondary {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 64px;
+    width: 170px;
+    border: 0;
+}
+
+/* Header Banner */
+.banner-background {
+    background-image: url('../images/banner/banner1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+}
+
+.header-banner {
+    text-align: right;
+    padding: 216px 230px 364px 845px;
+}
+
+.banner-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    background: #F15B22;
+    border-radius: 5px;
+    height: 64px;
+    border: 0;
+
+}
+
+/* Section-1 */
+.section1 {
+    display: flex;
+    width: 1600px;
+    height: 808px;
+    gap: 200px;
+
+}
+
+.section1-img {
+    margin-left: 135px;
+    margin-top: 130px;
+}
+
+.section1-right-part {
+
+    text-align: left;
+    margin-top: 370px;
+    padding-right: 200px;
+}
+
+.section1-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.section1-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.section1-points {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* Section-my-plans */
+.section-my-plans {
+    padding-top: 130px;
+    width: 1600px;
+    height: 500px;
+    text-align: center;
+
+}
+
+.section2-title {
+    text-align: center;
+
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section2-catagory {
+    display: flex;
+    gap: 86px;
+    margin-left: 240px;
+}
+
+.skill-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Section-3 */
+.section3 {
+    margin-left: 200px;
+
+    background: linear-gradient(90deg, #2283f1 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+
+
+    height: 300px;
+    width: 1140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+
+}
+
+.section3-content {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 459px;
+    height: 94px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+/* Time Schedule */
+.daily-schedule{
+    width: 1600px;
+    height: 577px;
+}
+.daily-schedule h2 {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.daily-schedule-description {
+    background-image: url('../images/schedule.png');
+    width: 1600px;
+    height: 577px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 20px;
+
+}
+
+.daily-schedule-description p{
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+
+/* Footer Section */
+
+.footer-background {
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    margin-top: 140px;
+}
+
+.footer-content {
+    display: flex;
+    color: #FFFFFF;
+    gap: 390px;
+
+
+}
+
+/* Left-content */
+.left-content {
+    margin-left: 230px;
+    margin-top: 188px;
+}
+
+.left-content p {
+    margin-top: 20px;
+}
+
+.footer-icons {
+
+    margin-top: 10px;
+    text-align: left;
+}
+
+.footer-icons img {
+    margin-right: 10px;
+}
+
+/* form contents */
+.form {
+    margin-top: 188px;
+    margin-right: 230px;
+
+}
+
+.form h2 {
+    margin-bottom: 32px;
+    text-align: left;
+
+}
+
+.form input {
+    margin-bottom: 10px;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 10px;
+    background-color: #151414;
+    color: #FFFFFF;
+}
+
+.form {
+    text-align: right;
+}
